@@ -1,0 +1,22 @@
+{
+  "name": "weather-app-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zametki.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otash8888/Weather-app-with-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otash8888/Weather-app-with-node/issues"
+  },
+  "homepage": "https://github.com/Otash8888/Weather-app-with-node#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
