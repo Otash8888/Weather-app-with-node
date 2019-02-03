@@ -6,11 +6,10 @@ request({
 },(error,response,body) => {
 
   console.log(`Formatted address ${body.results[0].formatted_address}`);
-
+  console.log(`${body.results[2].long_name}`)
   console.log(`Latitude:  ${body.results[0].geometry.location.lat}`)
-
   console.log(`Logitude:  ${body.results[0].geometry.location.lng}`)
   // console.log(JSON.stringify(body, undefined, 2));
   //readable formating
-  console.log(`${body.results[2].long_name}`)
+
 })
