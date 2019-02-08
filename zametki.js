@@ -38,3 +38,12 @@ L-29. What's makes up HTTP request
 
 //we did error and responde print out on console
 L-30.
+
+
+let batches = (recipe, available) => {
+
+
+
+
+
+}
